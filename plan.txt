@@ -1,0 +1,102 @@
+План подготовки тестировщика.
+Цель - Ознакомиться макимально объёмно с софтом. Перехватить данные по всем каналам, сформировать все отчеты и попробовать все виды поиска. Обращать внимание и сообщать о ошибках и проблемах с софтом.
+
+Вступление и подготовка виртуальной среды (2 дня):
+https://www.youtube.com/watch?v=qmdoi3_u55k V
+https://www.youtube.com/watch?v=mmirIoAERq4 V
+https://www.youtube.com/watch?v=WSG6vMTn6GA V
+http://docs.searchinform.ru/KIB_SearchInform.pdf V
+http://docs.searchinform.ru/SearchInform_RM_capabilities.pdf V
+http://docs.searchinform.ru/KIB_SearchInform_Unicode_installation_12022019.pdf V
+http://docs.searchinform.ru/preparation_for_installation_22022019.pdf V
+http://docs.searchinform.ru/accounts_and_access_rights_1.4.10.pdf V
+http://docs.searchinform.ru/SearchInform_activation.pdf V
+
+http://docs.searchinform.ru/admin_manual.pdf V
+
+среда: 
+1 контролер АД на WindowsServer2016 (с MSSQL 2017 Express), V
+1 сервер с Exchange 2019 на WindowsServer2019, V
+1 сервер (для установки КИБ) на WindowsServer2019, V
+1 рабочая станция (для установки агентов) на Windows 10, V
+1 рабочая станция (для установки агентов, для SIEM) на Ubuntu 18.04 V
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+DataCenter (1 день):
+http://download.searchinform.com/rognerjgn34/SI_DataCenter_2.34.1.3.zip V
+http://docs.searchinform.ru/datacenter_description_12022019.pdf V
+http://docs.searchinform.ru/datacenter_tech_12022019.pdf V
+http://docs.searchinform.ru/installation_datacenter_12022019.pdf V
+
+SearchServer_Unicode (1 день):
+http://download.searchinform.com/3409jfo3ijf3f/SI_SearchServer_Unicode_5.13.0.8.zip V
+http://download.searchinform.com/09gijrtgre/SI_SearchServer_Unicode_API_5.12.0.11.zip V
+http://docs.searchinform.ru/SearchServer5_description_27022019.pdf V
+http://docs.searchinform.ru/SearchServer5_tech_27022019.pdf V
+http://docs.searchinform.ru/installation_search_server_unicode_24082018.pdf V
+
+Демонстрация текущего состояния среды.
+
+EndpointController (2 дня):
+http://download.searchinform.com/w356h356je546u/SI_EndpointController_5.57.1.9.zip V
+http://download.searchinform.com/w356h356je546u/SI_setup_proxy_5.57.1.9.zip V
+http://docs.searchinform.ru/installation_endpointcontroller_14022019.pdf V
+http://docs.searchinform.ru/EC_Hub.pdf V
+http://docs.searchinform.ru/cloudcontroller_description_08022019.pdf V
+http://docs.searchinform.ru/cloudcontroller_tech_25022019.pdf V
+http://docs.searchinform.ru/devicecontroller_description_08022019.pdf V
+http://docs.searchinform.ru/devicecontroller_tech_25022019.pdf V
+http://docs.searchinform.ru/filecontroller_description_07022019.pdf V
+http://docs.searchinform.ru/filecontroller_tech_25022019.pdf
+http://docs.searchinform.ru/ftpcontroller_description_07022019.pdf
+http://docs.searchinform.ru/ftpcontroller_tech_25022019.pdf
+http://docs.searchinform.ru/httpcontroller_description_07022019.pdf
+http://docs.searchinform.ru/httpcontroller_tech_25022019.pdf
+http://docs.searchinform.ru/imcontroller_description_07022019.pdf
+http://docs.searchinform.ru/imcontroller_tech_25022019.pdf
+http://docs.searchinform.ru/mailcontroller_description_07022019.pdf
+http://docs.searchinform.ru/mailcontroller_tech_26022019.pdf
+http://docs.searchinform.ru/microphonecontroller_description_07022019.pdf
+http://docs.searchinform.ru/microphonecontroller_tech_25022019.pdf
+http://docs.searchinform.ru/monitorcontroller_description_07022019.pdf
+http://docs.searchinform.ru/monitorcontroller_tech_25022019.pdf
+http://docs.searchinform.ru/printcontroller_description_07022019.pdf
+http://docs.searchinform.ru/printcontroller_tech_26022019.pdf
+http://docs.searchinform.ru/programcontroller_description_07022019.pdf
+http://docs.searchinform.ru/programcontroller_tech_26022019.pdf
+http://docs.searchinform.ru/skypecontroller_description_07022019.pdf
+http://docs.searchinform.ru/skypecontroller_tech_26022019.pdf
+http://docs.searchinform.ru/indexing_workstations_description_27022019.pdf V
+http://docs.searchinform.ru/indexing_workstations_tech_27022019.pdf V
+
+NetworkController (2 дня):
+http://download.searchinform.com/rnforfjnoi3/SI_NetworkController_6.75.0.6.zip V
+http://docs.searchinform.ru/installation_networkcontroller_24122018.pdf V
+
+Analytic Console, ProfileCenter (1 день):
+http://download.searchinform.com/orevoermnerf/SI_AnalyticConsole_1.31.1.3.zip V
+http://docs.searchinform.ru/analyticconsole_description_26102018.pdf V
+http://docs.searchinform.ru/AnalyticConsole_tech_26102018.pdf V
+http://docs.searchinform.ru/ProfileCenter_05032019.pdf V
+
+Демонстрация текущего состояния среды.
+
+SIEM (1 день):
+http://download.searchinform.com/imformfo3kmf/SI_SIEM_1.34.0.5.zip V
+http://docs.searchinform.ru/SIEM_description_25122018.pdf V
+http://docs.searchinform.ru/SIEM_tech_14022019.pdf V
+http://docs.searchinform.ru/installation_SIEM_14022019.pdf V
+
+AlertCenter (1 день):
+http://download.searchinform.com/okfrkpf/SI_AlertCenter_4.112.0.5.zip V
+http://docs.searchinform.ru/alertcenter_description_12022019.pdf V
+http://docs.searchinform.ru/alertcenter_tech_12022019.pdf V
+http://docs.searchinform.ru/installation_alertcenter_12022019.pdf V
+
+Дополнительно:
+http://docs.searchinform.ru/Bugs_diagnostics.pdf
+http://docs.searchinform.ru/KIB_migration.pdf
+http://docs.searchinform.ru/restoring_functionality.pdf
+
+Экзамен.

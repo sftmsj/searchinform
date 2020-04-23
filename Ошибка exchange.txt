@@ -1,0 +1,14 @@
+Ошибка:
+При выполнении "$error.Clear(); 
+          New-PushNotificationsVirtualDirectory -Role Mailbox -OAuthAuthentication:$RoleIsDatacenter -DomainController $RoleDomainController;
+        " произошла следующая ошибка: "Microsoft.Exchange.Configuration.Tasks.ManagementObjectNotFoundException: Не удалось найти Exchange server "srv-exch.sftm.local". Убедитесь, что имя сервера введено правильно.
+   в Microsoft.Exchange.Configuration.Tasks.DataAccessTask`1.GetDataObject[TObject](IIdentityParameter id, IConfigDataProvider session, ObjectId rootID, OptionalIdentityData optionalData, Func`2 notFoundError, Func`2 multipleFoundError, ExchangeErrorCategory errorCategory)
+   в Microsoft.Exchange.Management.SystemConfigurationTasks.NewVirtualDirectory`1.ShouldCreateVirtualDirectory()
+   в Microsoft.Exchange.Management.SystemConfigurationTasks.NewExchangeVirtualDirectory`1.ShouldCreateVirtualDirectory()
+   в Microsoft.Exchange.Management.SystemConfigurationTasks.NewVirtualDirectory`1.PrepareDataObject()
+   в Microsoft.Exchange.Management.SystemConfigurationTasks.NewExchangeVirtualDirectory`1.PrepareDataObject()
+   в Microsoft.Exchange.Management.SystemConfigurationTasks.NewExchangeServiceVirtualDirectory`1.PrepareDataObject()
+   в Microsoft.Exchange.Configuration.Tasks.SetTaskBase`1.InternalValidate()
+   в Microsoft.Exchange.Management.SystemConfigurationTasks.NewExchangeVirtualDirectory`1.InternalValidate()
+   в Microsoft.Exchange.Configuration.Tasks.Task.<ProcessRecord>b__91_1()
+   в Microsoft.Exchange.Configuration.Tasks.Task.InvokeRetryableFunc(String funcName, Action func, Boolean terminatePipelineIfFailed)".
